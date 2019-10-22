@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* wlo:Cflower */
+body{margin:0 auto; padding:0; font-family:"微软雅黑","宋体", Times, serif; font-size:12px; font-weight:normal; position:relative; }
+*{margin:0; padding:0;*zoom:1;}
+ul,li,ol,dl{ list-style:none outside;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+i,em,b,strong{font-style:normal;font-weight:normal;}
+input{border:0; }
+textarea{resize:none;}
+input,select,textarea{outline:none;}
+table{border-collapse:collapse;}
+th,td{padding:0; border:1px solid #000;}
+a img{border:0;}
+img{border:none; display:block;}
+a{outline:none; text-decoration:none; color:#fff;}
+/* a:hover{text-decoration:underline;} */
+a:active{star:expression(this.onFocus=this.blur());}
+.fl{float:left;}
+.fr{float:right;}
+/* .clearfloat:after{clear: both;content:""; display: block; height: 0; visibility: hidden;} */
+::-ms-clear{ display:none;}
+::-ms-reveal{ display:none;} /*IE10+下文本框输入文字后又叉叉，密码框后有小眼睛图标，去除password类型输入框的眼睛需要使用伪元素*/
+.clearfloat:after{display:block;content:''; clear:both;}
+.clearfloat{zoom:1;}
+*html{ background-image:url(about:blank); background-attachment:fixed; /*解决ie6下 层的闪动*/}
+.chromeframe{background:#fff9d4;color:#000;padding:10px 0;text-align:center;border-bottom:1px solid #000; font-size:14px; margin:0 auto; min-width:1200px; max-width:1920px;}
+.chromeframe a{ color:red;}
+
+

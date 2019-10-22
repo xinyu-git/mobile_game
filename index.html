@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>《手游》</title>
+<meta name="author" content="wlo:Cflower">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="《手游》">
+<meta name="description" content="《手游》">
+<meta name="full-screen" content="yes">
+<meta http-equiv="Expires" content="-1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="format-detection" content="address=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link type="text/css" rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (min-width:960px)"/>
+<link rel="stylesheet" type="text/css" href="css/style_phone.css"  media="screen and (max-width:960px)"/>
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+</head>
+
+<body>
+<!--[if lte IE 8]>
+<body class="ite">
+<p class="chromeframe">亲，浏览器版本过低，换一个吧！<a href="http://windows.microsoft.com/" target="_blank">升级您的IE浏览器</a>，或使用<a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank">Google Chrome</a>、<a href="http://www.firefox.com.cn/download/" target="_blank">Firefox</a>等高级浏览器。</p>
+<![endif]-->
+<div class="wrap">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<div class="page1">
+		    		<div class="logo"><a href="javascript:;"><img src="images/logo.png"></a></div>
+		    		<div class="pageCon clearfloat">
+		    			<p class="code_box"><img src="images/code.png"></p>
+		    			<a href="javascript:;" target="_blank" class="download_ios">IOS版游戏下载</a>
+		    			<a href="javascript:;" target="_blank" class="download_android">安卓版游戏下载</a>
+		    		</div>
+		    		<div class="orderBtn_box"><a href="news.html" target="_blank" class="order_btn"></a></div>
+		    	</div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="page2">
+		    		<div class="logo"><a href="javascript:;"><img src="images/logo.png"></a></div>
+		    	</div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="page3">
+		    		<div class="logo"><a href="javascript:;"><img src="images/logo.png"></a></div>
+		    	</div>
+		    </div>
+		    <div class="swiper-slide">
+		    	<div class="page4">
+		    		<div class="logo"><a href="javascript:;"><img src="images/logo.png"></a></div>
+		    		<div class="pageCon clearfloat page4Con">
+		    			<p class="code_box"><img src="images/code.png"></p>
+		    			<p class="code_text">诚邀您成为首批封测玩家<br />添加微信公众号：zjzz</p>
+		    		</div>
+		    		<div class="orderBtn_box">
+		    			<a href="javascript:;" target="_blank" class="order_btn"></a>
+		    			<a href="javascript:;" target="_blank" class="latestNews_btn"></a>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+	<!-- Add Arrows -->
+	<div class="next swiper-button-next"></div>
+</div>
+
+
+
+<script type="text/javascript" src="js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+           direction: 'vertical',
+           slidesPerView: 1,
+           mousewheel: true,
+           navigation: {
+        		nextEl: '.swiper-button-next'
+      		},
+      		/*on:{
+      			slideNextTransitionEnd:function(){
+      				console.log(swiperSlideLen)
+      				console.log(swiper.activeIndex)
+      				if(swiperSlideLen == (swiper.activeIndex+1)){
+      					$('.next').hide()
+      				}
+      			}
+      		}*/
+     });
+  </script>
+
+</body>
+</html>
